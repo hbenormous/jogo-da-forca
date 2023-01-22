@@ -1,0 +1,60 @@
+html, body {
+	font-family: "Nobile", arial, sans-serif;
+}
+
+h4 {
+	margin: 0;
+	position: relative;
+	top: 20px;
+}
+
+.forca {
+	display: grid;
+    grid-template-columns: repeat(2, 170px);
+}
+
+.forca canvas {
+	 background: #e7e7e7;
+	 box-shadow: 0 0 3px;
+}
+
+.forca div div {
+	display: flex;
+}
+
+#letras-erradas {
+	display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#letras-erradas p {
+	color: black;
+}
+
+p {
+	padding: 10px;
+    margin-right: 10px;
+    color: white;
+    border-bottom: 5px solid #000000;
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.campo-de-texto {
+	width: min-content;
+    text-align: center;
+    position: absolute;
+    top: 170px;
+    left: 45px;
+}
+.campo-de-texto label {
+	 font-size: 15px;
+}
+.campo-de-texto input {
+	 width: 60px;
+	 height: 60px;
+	 font-size: 50px;
+	 text-align: center;
+	 outline: solid;
+}
